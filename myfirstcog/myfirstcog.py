@@ -9,5 +9,8 @@ class MyFirstCog(commands.Cog):
     @commands.command()
     async def mocaishot(self, ctx):
         """Moca is hot."""
-        # Your code will go here
         await ctx.send("I'm very hot. Get me bread please!")
+    @commands.command(hidden=True)
+    async def peakytime(self,ctx):
+        """peaky time"""
+        await ctx.send("I want to marry Peaky, like right now.")
