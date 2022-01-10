@@ -13,4 +13,7 @@ class MyFirstCog(commands.Cog):
     @commands.command(hidden=True)
     async def peakytime(self,ctx):
         """peaky time"""
-        await ctx.send("I want to marry Peaky, like right now.")
+        if ctx.author.id == 750325757024141392:
+            await ctx.send("Oh... u- uh hii peaky.. ehehehehhe")
+        else: 
+            await ctx.send("Shh, don't tell peaky this. I really want to marry him so bad.\n I'll self destruct this message so he wont see it.", delete_after=3)
